@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "build:tweego": "tweego -f sugarcube-2 -o special/ chapters/",
+    "watch:tweego": "chokidar '**/*.tw' -c 'tweego -f sugarcube-2 -t -o story.html special/ chapters/'",
+    "serve": "npx live-server --port=5500 --entry-file=story.html",
+    "dev": "concurrently 'npm run watch:tweego' 'npm run serve'"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
