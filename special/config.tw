@@ -3,5 +3,7 @@ Test Game
 
 :: StoryData
 {
-    "ifid": "19b41894-ff99-4f6f-bdb7-f2932bc520eb"
+    "ifid": "19b41894-ff99-4f6f-bdb7-f2932bc520eb",
+    "format": "SugarCube",
+    "format-version": "2.37.3"
 }
