@@ -1,0 +1,15 @@
+# Node modules
+node_modules/
+
+# Output of builds
+story.html
+special/*.js
+special/*.css
+special/scripts.tw
+special/styles.tw
+
+# Resources
+images/*.*
+
+# IDE/editor files
+.vscode/
