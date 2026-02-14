@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "build:css": "echo ':: Story Stylesheet [stylesheet]' > special/styles.tw && lessc ./styles/main.less >> special/styles.tw",
+    "build:js": "echo ':: Story JavaScript [script]' > special/scripts.tw && esbuild scripts/main.ts --bundle --outfile=special/temp.js --platform=browser && cat special/temp.js >> special/scripts.tw && rm special/temp.js",
     "build:tweego": "tweego -f sugarcube-2 -o special/ chapters/",
     "watch:css": "chokidar './styles/*.less' -c 'npm run build:css'",
+    "watch:js": "chokidar './scripts/*.ts' -c 'npm run build:js'",
     "watch:tweego": "chokidar '**/*.tw' -c 'tweego -f sugarcube-2 -t -o story.html special/ chapters/'",
     "serve": "npx live-server --port=5500 --entry-file=story.html",
-    "dev": "concurrently 'npm run watch:tweego' 'npm run watch:css' 'npm run serve'"
+    "dev": "concurrently 'npm run watch:tweego' 'npm run watch:css' 'npm run watch:js' 'npm run serve'"
   },
   "keywords": [],
   "author": "",

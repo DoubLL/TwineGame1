@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "amd",
+    "outFile": "special/scripts.js", 
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowJs": false,
+    "typeRoots": ["./node_modules/@types"]
+  },
+  "include": [
+    "scripts/**/*.ts",
+    "scripts/**/*.d.ts"
+  ]
+}
