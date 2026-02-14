@@ -1,2 +1,23 @@
-:: Start
-<<set $location='city'>>You are in the city.
+:: intro.1
+@@text-align:center;
+Who are you<<timed 1500ms transition>>
+That lives in my brain
+<<next>>That ruptures my thoughts
+<<next>>That causes my pain
+
+<<next 2500ms>>Who are you
+<<next 1500ms>>That touches my skin
+<<next>>That crawls through my guts
+<<next>>That kills from within
+
+<<next 2500ms>>Who are you
+<<next 1500ms>>I cannot defy
+<<next>>For one thing is sure
+<<next>>//That you are not ''I''//
+
+
+<<next 2500ms>>[[Awaken|intro.2]]
+<</timed>>
+@@
+:: intro.2
+!! The Æther

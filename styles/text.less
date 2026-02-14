@@ -1,0 +1,14 @@
+@text-color: rgb(240, 240, 250);
+@link-color: rgb(181, 233, 233);
+
+body {
+    color: @text-color;
+}
+.link-internal {
+    color: @text-color;
+    text-decoration: underline @link-color;
+}
+.link-internal:hover {
+    color: @link-color;
+    text-decoration: underline @link-color;
+}
