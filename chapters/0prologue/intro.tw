@@ -1,5 +1,6 @@
-:: intro.1
+:: intro.1 {"position":"250,0"}
 @@text-align:center;
+! Prologue
 Who are you<<timed 1500ms transition>>
 That lives in my brain
 <<next>>That ruptures my thoughts
@@ -16,8 +17,46 @@ That lives in my brain
 <<next>>//That you are not ''I''//
 
 
-<<next 2500ms>>[[Awaken|intro.2]]
+<<next 2500ms>>[[The Stranger|intro.2]]
 <</timed>>
 @@
-:: intro.2
-!! The Æther
+<<set $character='void'>>
+<<set $location='void'>>
+
+
+:: intro.2 {"position":"375,0"}
+!! The Stranger
+Silence. 
+
+You drift through the endless expanse of the Æther. 
+\ Vast shapes of creatures long forgotten pass you by. 
+\ From far beyond, there is a call. 
+\ You can feel it. 
+\ A voice from the Materium; a mortal crying out. 
+\ Its words mean nothing to you. 
+\ Prayers wasted on one without form. 
+And yet, the current draws you nearer. 
+
+Within the infinite distance between the stars, a tiny marble rolls along.
+\ As it draws close, you brush against Materium.
+\ Its reality pushes you back; rejects you.
+\ Countless possibilities, screaming in agony as you approach to snuff them out.
+And yet, the current draws you nearer. 
+
+Clouds form and dissipate. Seasons come and pass.
+\ Mountains rise from the depths of oceans and are ground down by storms.
+\ Continents drift apart and collide.
+\ All is known to you. But nothing has meaning. 
+And yet, the current draws you nearer. 
+
+From the chaos, a figure takes shape. The form of a mortal, clothed in white robes. 
+She cannot perceive you; that is certain. To perceive the Æther is death for a mortal. 
+And yet, as the current draws you nearer, [[her blind eyes pierce you|intro.3]]. 
+<<set $character='void'>>
+<<set $location='void'>>
+
+:: intro.3
+
+
+<<set $character='void'>>
+<<set $location='void'>>
