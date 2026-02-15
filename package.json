@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:css": "echo ':: Story Stylesheet [stylesheet]' > special/styles.tw && lessc ./styles/main.less >> special/styles.tw",
-    "build:js": "echo ':: Story JavaScript [script]' > special/scripts.tw && esbuild scripts/main.ts --bundle --outfile=special/temp.js --platform=browser && cat special/temp.js >> special/scripts.tw && rm special/temp.js",
+    "build:css": "echo ':: Story Stylesheet [stylesheet] {\"position\":\"0,450\"}' > special/styles.tw && lessc ./styles/main.less >> special/styles.tw",
+    "build:js": "echo ':: Story JavaScript [script] {\"position\":\"0,350\"} ' > special/scripts.tw && esbuild scripts/main.ts --bundle --outfile=special/temp.js --platform=browser && cat special/temp.js >> special/scripts.tw && rm special/temp.js",
     "build:tweego": "tweego -f sugarcube-2 -o special/ chapters/",
     "watch:css": "chokidar './styles/*.less' -c 'npm run build:css'",
     "watch:js": "chokidar './scripts/*.ts' -c 'npm run build:js'",
