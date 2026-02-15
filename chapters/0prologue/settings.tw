@@ -1,7 +1,7 @@
 :: settings {"position":"125,0"}
 !! Settings
 This is where the player will be able to choose the settings for their playthrough.
-Once that is done, they will continue to the [[introduction->intro.1]], or, if thay have completed at least one playthough, the [[rebirth cycle]]
+Once that is done, they will continue to the [[introduction->pro.intro.1]], or, if thay have completed at least one playthough, the [[rebirth cycle]]
 
 <<set $location='void'>>
 <<set $character='none'>>

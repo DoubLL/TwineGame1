@@ -1,0 +1,88 @@
+:: pro.intro.1 {"position":"250,0"}
+@@text-align:center;
+! Prologue
+Who are you<<timed 1500ms transition>>
+That lives in my brain
+<<next>>That ruptures my thoughts
+<<next>>That causes my pain
+
+<<next 2500ms>>Who are you
+<<next 1500ms>>That touches my skin
+<<next>>That crawls through my guts
+<<next>>That kills from within
+
+<<next 2500ms>>Who are you
+<<next 1500ms>>I cannot defy
+<<next>>For one thing is sure
+<<next>>//That you are not ''I''//
+
+
+<<next 2500ms>>[[The Stranger|pro.intro.2]]
+<</timed>>
+@@
+<<set $character='void'>>
+<<set $location='void'>>
+
+
+:: pro.intro.2 {"position":"250,25"}
+!! The Stranger
+Silence. 
+
+You drift through the endless expanse of the Æther.
+\ Vast shapes of creatures long forgotten pass you by.
+\ From far beyond, there is a call.
+\ You can feel it.
+\ A voice from the Materium; a mortal crying out.
+\ Its words mean nothing to you.
+\ Prayers wasted on one without form.
+And yet, the current draws you nearer.
+
+Within the infinite distance between the stars, a tiny marble rolls along.
+\ As it draws close, you brush against Materium.
+\ Its reality pushes you back; rejects you.
+\ Countless possibilities, screaming in agony as you approach to snuff them out.
+And yet, the current draws you nearer.
+
+Clouds form and dissipate. Seasons come and pass.
+\ Mountains rise from the depths of oceans and are ground down by storms.
+\ Continents drift apart and collide.
+\ All is known to you. But nothing has meaning.
+And yet, the current draws you nearer.
+
+From the chaos, a figure takes shape. The form of a mortal, clothed in white robes.
+She cannot perceive you; that is certain. To perceive the Æther is death for a mortal.
+And yet, as the current draws you nearer, [[her blind eyes pierce you|pro.intro.3]].
+<<set $character='void'>>
+<<set $location='void'>>
+
+:: pro.intro.3 {"position":"250,50"}
+//“By the might of Empyrean,”// she incants, her voice rhythmic and melodic,
+//“the First of the Gods, I tear through the Æther.
+By the wisdom of Providence, the Seeker of Knowledge, I call thee from void.
+By the will of Ogmios, the Binder of Souls, I chain thee to me.
+By the grace of Ayizan, the Keeper of Justice, I inscribe thy law:
+
+O enter this world through a vessel well suited.
+And seek out who called thee; obey her command.
+Deliver this land and its people from darkness.
+Return with thy kind to the place whence thou camest.
+
+So it is spoken, and so it shall be.”//
+
+
+Her words crash into the silence like stones tossed into the sea,
+\ sending waves rippling through the fabric of reality.
+\ As they echo from distant times long past and ahead, you gain awareness of the world.
+\ A large river, a magnificent city at its delta.
+\ Tens of thousands of mortals, living their lives, going their way.
+\ All toiling in service of a cause they cannot comprehend.
+\ At the docks, merchant ships load cargo; sailors gather in taverns;
+\ workers scurry about in restless monotony. 
+The day passes. The sun sets and the Eye of the Gods,
+\ ever watchful over the distant, lost continent, shines with the waning purple light of Ogmios.
+\ //“How curious,”// you think, the thought blooming in a mind which has lain dormant for untold eons,
+\ //“that the Binder should herald the coming of the Stranger.”//
+And finally, floating gently into a dingy old house near the harbor guard’s station,
+\ [[you drift off into sleep|ch1.intro.1]].
+<<set $character='void'>>
+<<set $location='void'>>
