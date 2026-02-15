@@ -1,7 +1,7 @@
-:: StoryTitle
+:: StoryTitle {"position":"0,150"}
 Test Game
 
-:: StoryData
+:: StoryData {"position":"0,250"}
 {
     "ifid": "19b41894-ff99-4f6f-bdb7-f2932bc520eb",
     "format": "SugarCube",

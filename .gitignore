@@ -9,7 +9,8 @@ special/scripts.tw
 special/styles.tw
 
 # Resources
-images/*.*
+images/
+fonts/
 
 # IDE/editor files
 .vscode/

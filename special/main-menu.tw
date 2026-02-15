@@ -1,3 +1,5 @@
 :: Start
 ! This is the main menu
 [[start game|settings]]
+<<set $location='void'>>
+<<set $character='none'>>

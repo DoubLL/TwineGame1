@@ -3,4 +3,8 @@ $(document).on(":passagerender", () => {
     if (loc) {
         $("body").attr("data-location", loc);
     }
+    const char = (State.variables as any).character;
+    if (char) {
+        $("body").attr("data-character", char);
+    }
 });
