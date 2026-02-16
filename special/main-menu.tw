@@ -1,5 +1,4 @@
-:: Start
-! This is the main menu
+:: Start [main-menu]
+!!! Tales from al-Kathira
+! The Crawling Shadow
 [[start game|settings]]
-<<set $location='void'>>
-<<set $character='none'>>

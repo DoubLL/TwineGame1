@@ -1,8 +1,8 @@
 @void-color: #000000;
-body[data-location="void"]   { .body-location(@void-color); }
+body[data-tags~="void"]   { .body-location(@void-color); }
 
-@city-color: #FEEDFE;
-body[data-location="city"]   { .body-location(@city-color); }
+@city-color: #2a073a;
+body[data-tags~="city"]   { .body-location(@city-color); }
 
 .body-gradient(@color,) {
   @c0: lighten(@color, 15%);

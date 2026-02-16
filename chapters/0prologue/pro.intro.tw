@@ -1,4 +1,4 @@
-:: pro.intro.1 {"position":"250,0"}
+:: pro.intro.1 [void c-void] {"position":"250,0"}
 @@text-align:center;
 ! Prologue
 Who are you<<timed 1500ms transition>>
@@ -20,11 +20,9 @@ That lives in my brain
 <<next 2500ms>>[[The Stranger|pro.intro.2]]
 <</timed>>
 @@
-<<set $character='void'>>
-<<set $location='void'>>
 
 
-:: pro.intro.2 {"position":"250,25"}
+:: pro.intro.2 [void c-void] {"position":"250,25"}
 !! The Stranger
 Silence. 
 
@@ -52,10 +50,9 @@ And yet, the current draws you nearer.
 From the chaos, a figure takes shape. The form of a mortal, clothed in white robes.
 She cannot perceive you; that is certain. To perceive the Æther is death for a mortal.
 And yet, as the current draws you nearer, [[her blind eyes pierce you|pro.intro.3]].
-<<set $character='void'>>
-<<set $location='void'>>
 
-:: pro.intro.3 {"position":"250,50"}
+
+:: pro.intro.3 [void c-void] {"position":"250,50"}
 //“By the might of Empyrean,”// she incants, her voice rhythmic and melodic,
 //“the First of the Gods, I tear through the Æther.
 By the wisdom of Providence, the Seeker of Knowledge, I call thee from void.
@@ -65,7 +62,7 @@ By the grace of Ayizan, the Keeper of Justice, I inscribe thy law:
 O enter this world through a vessel well suited.
 And seek out who called thee; obey her command.
 Deliver this land and its people from darkness.
-Return with thy kind to the place whence thou camest.
+Return with thy kind to the place whence thou came.
 
 So it is spoken, and so it shall be.”//
 
@@ -84,5 +81,3 @@ The day passes. The sun sets and the Eye of the Gods,
 \ //“that the Binder should herald the coming of the Stranger.”//
 And finally, floating gently into a dingy old house near the harbor guard’s station,
 \ [[you drift off into sleep|ch1.intro.1]].
-<<set $character='void'>>
-<<set $location='void'>>
