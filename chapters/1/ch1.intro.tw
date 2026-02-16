@@ -1,0 +1,104 @@
+:: ch1.intro.1 [city c-john] {"position":"375,0"}
+! Chapter 1 : Awakening
+!! Johns appartment
+<div class="change">\
+<<switch $ch1_intro_1_interaction>>\
+    <<case "bed">>\
+        <<if $ch1_intro_1_bed>>\
+            John looks back at the bed; the blanket is folded and the pillow fluffed.
+        <<else>>\
+            John looks back at the bed; his thin blanket lies crumpled at the foot end,
+            \ the pillow still showing the indentation where his head lay.
+            \ You realize that he is not in the habit of \
+        <<link "making his bed" "ch1.intro.1">>\
+            <<set $ch1_intro_1_interaction="make-bed">>
+            <<set $ch1_intro_1_bed=true>>
+        <</link>>\
+        \ in the morning.
+        <</if>>\
+    <<case "make-bed">>\
+        And yet – though he cannot explain it – today he feels like he should.
+        \ He grabs the pillow, fluffs it up, then folds the blanket neatly. 
+        He rubs his temples – he has the slightest inkling of a headache.
+        \ He doesn't think much of it.
+    <<case "bowl">>\
+        John cups some water in his hands, pours it over his face, then dries himself off.
+        \ The last bit of sleep recedes from his mind, and he focuses on the day ahead of him.
+        \ He should head towards the harbor master's office soon;
+        \ many ships need unloading, now that the harvest month is ending
+        \ and goods are being brought to the city through the Kawthar River;
+        \ from the great fields at the delta, all the way to the base
+        \ of the river at great southern plateau.
+    <<case "window">>\
+        From the window, John can see the first workers – mostly humans,
+        \ half-humans and kobolds, gathering by the docks as the
+        \ first rays of sunlight shine over the horizon on the eastern bank of the river.
+        \ To the west, the merchant district's three and four storied
+        \ buildings block the view of the rest of al-Kathira. 
+    <<case "belongings">>\
+        His belongings are modest; just what would be considered proper for a dock worker.
+        \ Simple foodstuffs, a plate and knife, a collection of cheap trinkets, [other items?].
+        Only two things would seem unusual at closer inspection:
+        \ crudely drawn and annotated maps of various neighborhoods
+        \ in the city, and 
+        \<<link "a small wooden figurine" "ch1.intro.1">> <<set $ch1_intro_1_interaction="figurine">> <</link>>.
+    <<case "figurine">>\
+        Like all who make a career out of stealing,
+        \ John remembers well from where he took this figurine;
+        \ it is an unspoken rule – perhaps an instinct, perhaps divine
+        \ inspiration – that any thief worth employing liberates the Goddesses’
+        \ figure from the first home in which they find a full set of the
+        \ Major Pantheon, and keeps it as their own.
+        To steal the other figures, often made of precious metals and inlayed with gemstones,
+        \ would be an affront to the Gods. But modest Rubea,
+        \ always carved out of simple wood and without adornments,
+        \ whom honest thieves worship over all others,
+        \ welcomes being taken into the home of those who serve her. 
+        Her protection, it is said, is strongest for those who give
+        \ half their justly stolen earnings to those most in need:
+        \ the poor, the crippled, and the drifters.
+    <<case "stash">>\
+        Many copper spikes and even some silver weighs, carefully wrapped
+        \ in a cloth and stashed safely away from curious eyes,
+        \ lie hidden beneath the floorboards.
+        The life of a thief may not have made him a rich man,
+        \ but, at the moment, his hidden savings amounts almost
+        \ a full golden crest – enough to subsist for about a year,
+        \ should he be forced to disappear after an ill-fated
+        \ run-in with the guard or a job gone horribly wrong.
+    <<default>>\
+<</switch>>\
+</div>\
+<<if not $ch1_intro_1_interaction>>\
+John yawns as he slowly awakes to the noise of al-Kathira starting its day.
+\ A metropolis this large never truly sleeps, but the harbor, at least,
+\ falls mostly quiet during the night, lest the workers stumble over deck with precious cargo in hand.
+\ He sits up, yawns, stretches, and looks around his room, slightly confused. 
+<</if>>\
+
+Next to his \
+<<link "bed" "ch1.intro.1">>\
+    <<set $ch1_intro_1_interaction = "bed">>
+<</link>>\
+, a small nightstand with a \
+\<<link "bowl of water" "ch1.intro.1">> <<set $ch1_intro_1_interaction="bowl">> <</link>>
+\ and a rag are placed below a window pointed south at the docks.
+A shelf on the far side of the room holds his 
+\<<link "belongings" "ch1.intro.1">> <<set $ch1_intro_1_interaction="belongings">> <</link>>.
+\ Below the shelf a loose floorboard hides
+\ <<link "his coin" "ch1.intro.1">> <<set $ch1_intro_1_interaction="stash">> <</link>>.
+His clothes and jacket hang from 
+\ <<link "hooks" "ch1.intro.1">> <<set $ch1_intro_1_interaction="hooks">> <</link>>
+\ nailed into the wall near the door. 
+<<if not $ch1_intro_1_interaction>>\
+He knows all this, of course; everything is just as he left it when he went to bed.
+\ Yet, for some reason, he feels like he is seeing it all for the first time.
+\ He shakes his head – slightly confused – and climbs out of bed.
+
+His confusion, you are aware, stems from your presence in his mind.
+\ He has not realized it yet, but he feels your thoughts stirring somewhere in his subconscious. 
+It is this connection which will allow you to steer this
+\ vessel towards the goal you have been tasked with.
+\ “Seek out who called thee”.
+\ But first you will have to learn what you can of this world. 
+<</if>>
